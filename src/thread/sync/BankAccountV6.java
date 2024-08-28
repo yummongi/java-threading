@@ -22,7 +22,7 @@ public class BankAccountV6 implements BankAccount {
         log("거래 시작: " + getClass().getSimpleName());
 
         try {
-            if (!lock.tryLock(500, TimeUnit.MICROSECONDS)) { //0.5초 기다림
+            if (!lock.tryLock(500, TimeUnit.MILLISECONDS)) { //0.5초 기다림
                 log("[진입 실패] 이미 처리중인 작업이 있습니다");
                 return false;
             }
