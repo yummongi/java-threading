@@ -1,7 +1,6 @@
 package thread.executor.future;
 
 import thread.executor.CallableTask;
-import util.MyLogger;
 
 import java.util.List;
 import java.util.concurrent.ExecutionException;
