@@ -82,7 +82,7 @@
 - [x] Future 활용
 
 ### 섹션 14: 스레드 풀과 Executor 프레임워크 2
-- [x]ExecutorService 우아한 종료
+- [x] ExecutorService 우아한 종료
 - [x] Executor 스레드 풀 관리 및 전략
 
 ### 섹션 15: 다음으로
@@ -93,28 +93,7 @@
 - [x] 멀티스레드 은행 계좌 관리 시스템
 - [x] 생산자-소비자 패턴을 활용한 작업 큐 구현
 - [x] ExecutorService 학습
-
-
-## 📝 학습 노트
-
-각 섹션별 주요 개념과 배운 점을 여기에 정리할 예정입니다.
-
-```java
-
-public class JavaThreadMain {
-    public static void main(String[] args) {
-        Thread thread = new Thread(new MyTask(), "work");
-        thread.start();
-    }
-
-    static class MyTask implements Runnable {
-        @Override
-        void run() {
-            System.out.println("스레드 실행 중!");
-        }
-    }
-}
-```
+ 
 
 ## 🔗 링크
 
